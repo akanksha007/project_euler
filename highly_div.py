@@ -46,7 +46,7 @@ for i in range (1,500):
             if(t==0):
                 a.append(x)
     flag=len(a)+len(b)
-    
+    flag=flag-1
     if (flag>100):
         print"the first no is the triangular series which has factor more than 100 is \n",k 
         break;         
